@@ -16,9 +16,9 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
             }
         } else if (layer_state_is(3)) {
             if (clockwise) {
-                tap_code(KEY_F14);
+                tap_code(KC_F14);
             } else {
-                tap_code(KEY_F15);
+                tap_code(KC_F15);
             }
         }
     }
